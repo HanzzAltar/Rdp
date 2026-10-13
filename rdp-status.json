@@ -1,25 +1,25 @@
 {
   "active": false,
-  "hostname": "rdpfree-1",
-  "os": "Microsoft Windows Server 2025 Datacenter",
-  "os_build": "10.0.26100",
+  "hostname": "rdpfree-3",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 31.7,
+    "ram_gb": 16.0,
     "cpu_threads": 4,
-    "ram_gb": 16.0
+    "disk_free_gb": 82.2
   },
   "rdp_port": 3389,
-  "rdp_user": "xyadmin",
+  "rdp_user": "KanoRDP24",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-12T11:22:14Z",
-  "expires_at": "2026-10-12T17:17:14Z",
+  "started_at": "2026-10-13T23:03:27Z",
+  "expires_at": "2026-10-14T04:58:27Z",
   "duration_menit": 355,
-  "run_id": "38242157537",
+  "run_id": "38481812116",
   "run_attempt": "1",
-  "run_number": "1",
-  "run_url": "https://github.com/HanzzAltar/Rdp/actions/runs/38242157537",
+  "run_number": "3",
+  "run_url": "https://github.com/HanzzAltar/Rdp/actions/runs/38481812116",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -41,13 +41,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
       "note": "Isi secret TAILSCALE_AUTH_KEY terlebih dahulu.",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-12T11:22:20Z"
+  "stopped_at": "2026-10-13T23:03:32Z"
 }

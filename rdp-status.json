@@ -13,11 +13,11 @@
   "rdp_user": "KanoRDP24",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-13T23:03:27Z",
-  "expires_at": "2026-10-14T04:58:27Z",
+  "started_at": "2026-10-14T00:19:54Z",
+  "expires_at": "2026-10-14T06:14:54Z",
   "duration_menit": 355,
   "run_id": "38481812116",
-  "run_attempt": "1",
+  "run_attempt": "2",
   "run_number": "3",
   "run_url": "https://github.com/HanzzAltar/Rdp/actions/runs/38481812116",
   "mode": "bersih+win10",
@@ -41,13 +41,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "note": "Isi secret TAILSCALE_AUTH_KEY terlebih dahulu.",
       "status": "failed",
+      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-13T23:03:32Z"
+  "stopped_at": "2026-10-14T00:20:10Z"
 }

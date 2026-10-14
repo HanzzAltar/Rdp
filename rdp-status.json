@@ -1,25 +1,25 @@
 {
-  "active": false,
-  "hostname": "rdpfree-4",
-  "os": "Microsoft Windows Server 2022 Datacenter",
-  "os_build": "10.0.20348",
+  "active": true,
+  "hostname": "rdpfree-5",
+  "os": "Microsoft Windows Server 2025 Datacenter",
+  "os_build": "10.0.26100",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 82.2,
-    "ram_gb": 16.0,
-    "cpu_threads": 4
+    "cpu_threads": 4,
+    "disk_free_gb": 31.9,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "KanoRDP24",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-14T00:21:10Z",
-  "expires_at": "2026-10-14T06:16:10Z",
+  "started_at": "2026-10-14T00:53:39Z",
+  "expires_at": "2026-10-14T06:48:39Z",
   "duration_menit": 355,
-  "run_id": "38489651433",
+  "run_id": "38492686955",
   "run_attempt": "1",
-  "run_number": "4",
-  "run_url": "https://github.com/HanzzAltar/Rdp/actions/runs/38489651433",
+  "run_number": "5",
+  "run_url": "https://github.com/HanzzAltar/Rdp/actions/runs/38492686955",
   "mode": "bersih+win10",
   "xydesk": {
     "host": "ok",
@@ -40,14 +40,18 @@
   },
   "akses": {
     "tailscale": {
-      "note": "Tailscale menolak koneksi. Periksa masa berlaku auth key dan persetujuan perangkat di tailnet.",
-      "status": "failed",
-      "ip": "",
-      "magicdns": "",
-      "hostname": "",
-      "funnel_addr": ""
+      "status": "ok",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "hostname": "rdpfree-5",
+      "ip": "100.104.96.85",
+      "magicdns": "rdpfree-5.tail364f49.ts.net."
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-14T00:21:22Z"
+  "media": {
+    "microphone": "rdp_capture_enabled",
+    "wallpaper": "xyverse_configured_for_user_logon",
+    "verification": "Login ulang, aktifkan mic di XyDesk dan izinkan Android. Uji Windows Settings > Sound > Input; kebijakan aktif bukan bukti capture end-to-end.",
+    "audio_output": "rdp_playback_enabled"
+  }
 }
